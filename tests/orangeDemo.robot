@@ -1,6 +1,6 @@
 *** Settings ***
 Library    SeleniumLibrary
-Resource    resources/ressource1.robot
+Resource    ../resources/ressource1.robot
 
 
 *** Test Cases ***
