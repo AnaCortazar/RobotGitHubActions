@@ -4,8 +4,7 @@ Library    SeleniumLibrary
 
 *** Variables ***
 ${URL}    https://opensource-demo.orangehrmlive.com/
-${BROWSER}    edge
-
+${BROWSER}    chrome
 
 *** Keywords ***
 Se connecter à l'application OrangeDemo
