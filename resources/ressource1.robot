@@ -5,6 +5,7 @@ Library    SeleniumLibrary
 *** Variables ***
 ${URL}    https://opensource-demo.orangehrmlive.com/
 ${BROWSER}    chrome
+${CHROME_OPTIONS}    --user-data-dir=${TEMPDIR}${/}chrome-profile
 
 *** Keywords ***
 Se connecter à l'application OrangeDemo
